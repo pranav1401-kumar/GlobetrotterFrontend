@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://globetrotterbackend-production.up.railway.app';
+const API_URL = process.env.REACT_APP_API_URL || 'https://globetrotterbackend-production.up.railway.app/api';
 
 // Destination API calls
 export const getRandomDestination = async () => {
